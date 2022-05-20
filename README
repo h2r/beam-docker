@@ -1,0 +1,6 @@
+This project is a Dockerfile for running the Beam software stack to
+operate Suitable Technology's now deprecated Beam robots.  The Linux
+deb file depends on library versions found only in older versions of
+Ubuntu, so I made a Dockerfile to run it in the appropriate
+container. Audio and video recording and playback all work, and you
+can use the Beam as expected.
